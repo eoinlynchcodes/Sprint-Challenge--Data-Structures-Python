@@ -10,7 +10,7 @@ f = open('names_2.txt', 'r')
 names_2 = f.read().split("\n")  # List containing 10000 names
 f.close()
 
-duplicates = [ nameOne for nameOne in names_1 for nameOne in names_2 ] # Return the list of duplicates in this data structure
+# duplicates = [ nameOne for nameOne in names_1 for nameOne in names_2 ] # Return the list of duplicates in this data structure
 
 # Replace the nested for loops below with your improvements
 # for name_1 in names_1:
@@ -18,7 +18,7 @@ duplicates = [ nameOne for nameOne in names_1 for nameOne in names_2 ] # Return 
 #         if name_1 == name_2:
 #             duplicates.append(name_1)
     
-names_1 = set(names_1)
+# names_1 = set(names_1)
 names_2 = set(names_2)
 
 # individualnames = list(names_2 - names_1)
